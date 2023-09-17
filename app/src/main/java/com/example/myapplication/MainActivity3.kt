@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.Gravity
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -29,7 +30,7 @@ class MainActivity3 : AppCompatActivity() {
         )
         textView.text = getString(R.string.helloworld)
         textView.setTextColor(getColor(R.color.black))
-        textView.textSize = textSize
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize)
         textView.gravity = Gravity.CENTER
 
         val imageView = ImageView(this)
