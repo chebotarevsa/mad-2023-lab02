@@ -30,7 +30,6 @@
         android:id="@+id/imageView"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
-        android:importantForAccessibility="no"
         android:src="@drawable/android"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -28,12 +28,12 @@ class MainActivity3 : AppCompatActivity() {
         tView.setTextSize(TypedValue.COMPLEX_UNIT_PX , tSize)
 
 
-        val iView=ImageView(this)
-        iView.layoutParams=LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
-            0, 1.0f
+        val iView = ImageView(this)
+        iView.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
+            resources.getDimensionPixelSize( R.dimen.image_size)
         )
         iView.setImageResource(R.drawable.hello_world)
-        iView.scaleType=ImageView.ScaleType.CENTER_INSIDE
+        iView.scaleType = ImageView.ScaleType.CENTER_INSIDE
 
 
         maLay.addView(tView)
