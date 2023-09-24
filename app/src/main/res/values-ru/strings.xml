@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="HelloWorld">Привет, Мир!</string>
+    <string name="HelloAndroid">Привет, Андроид!</string>
+</resources>
