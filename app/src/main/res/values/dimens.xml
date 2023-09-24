@@ -4,5 +4,4 @@
     <dimen name="image_width">300dp</dimen>
     <dimen name="image_height">300dp</dimen>
     <dimen name="margin_Top">150dp</dimen>
-
 </resources>
