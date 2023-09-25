@@ -30,7 +30,7 @@
         android:layout_height="300dp"
         android:layout_margin="150dp"
         android:src="@drawable/hello_world"
-        android:contentDescription="Надпись Hello World"
+        android:contentDescription="@string/hello_world_alt"
         />
 
 
