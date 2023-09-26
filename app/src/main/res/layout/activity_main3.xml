@@ -12,7 +12,7 @@
         android:layout_height="@dimen/size"
         app:srcCompat="@drawable/hello_world"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="360dp" />
+        tools:layout_editor_absoluteY="371dp" />
 
     <TextView
         android:id="@+id/textView3"
