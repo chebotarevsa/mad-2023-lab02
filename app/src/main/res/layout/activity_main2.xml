@@ -10,20 +10,22 @@
         android:id="@+id/imageView"
         android:layout_width="@dimen/size"
         android:layout_height="@dimen/size"
-        android:layout_marginTop="371dp"
+        android:layout_marginTop="112dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/android" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="280dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="689dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="148dp"
         android:text="Hello, Android!"
         android:textSize="@dimen/sizeSp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
