@@ -16,12 +16,12 @@
         android:background="@color/green"
         android:text="Hello, World!"
         android:textColor="@color/red"
-        android:textSize="40sp" />
+        android:textSize="@dimen/sizeSp" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="300sp"
-        android:layout_height="300sp"
+        android:layout_width="@dimen/size"
+        android:layout_height="@dimen/size"
         android:layout_margin="50sp"
         app:srcCompat="@drawable/hello_world" />
 
