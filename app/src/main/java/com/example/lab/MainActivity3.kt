@@ -21,7 +21,7 @@ class MainActivity3 : AppCompatActivity() {
         val tView= TextView(this) //Экземпляр для текста
         tView.text=getString(R.string.HelloWorld) //Установка текста
         tView.layoutParams=LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
-            0,1.0f //Текст займёт 1/3 высоты от LinearLayout
+            0,1.0f //Текст растянется по всей высоте LinearLayout
         )
         tView.gravity=Gravity.CENTER //Выравнивание на середину
         val tSize= resources.getDimension(R.dimen.text_size) //Получение размера текста
@@ -29,11 +29,9 @@ class MainActivity3 : AppCompatActivity() {
 
 
         val iView=ImageView(this) //Экземпляр для картинки
-        iView.layoutParams=LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
-            0, 1.0f //Картинка займёт 1/3 высоты от LinearLayout
-        )
+        iView.layoutParams=LinearLayout.LayoutParams(resources.getDimensionPixelSize(R.dimen.image_width),
+            resources.getDimensionPixelSize(R.dimen.image_height)).apply { gravity = Gravity.CENTER } //ИСПРАВЛЕНИЕ: Вытягивает размеры из ресурсов + сразу центрирует
         iView.setImageResource(R.drawable.hello_world)
-        iView.scaleType=ImageView.ScaleType.CENTER_INSIDE //То же самое
 
 
         maLay.addView(tView)
