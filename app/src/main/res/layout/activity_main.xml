@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="80sp"
         android:background="@color/green"
-        android:text="Hello, World!"
+        android:text="@string/hello_world"
         android:textColor="@color/red"
         android:textSize="@dimen/sizeSp" />
 

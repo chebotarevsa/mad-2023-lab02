@@ -22,7 +22,7 @@
         android:layout_width="280dp"
         android:layout_height="0dp"
         android:layout_marginTop="148dp"
-        android:text="Hello, Android!"
+        android:text="@string/hello_android"
         android:textSize="@dimen/sizeSp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
