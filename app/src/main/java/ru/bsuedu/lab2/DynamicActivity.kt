@@ -27,7 +27,7 @@ class DynamicActivity : AppCompatActivity() {
         with(linearLayout) {
             addView(TextView(this@DynamicActivity).apply {
                 text = "Hello World!"
-                textSize = 40f // no need for the toSp function, this will already be in sp
+                textSize = 40f 
                 setTextColor(Color.BLACK)
                 layoutParams = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.WRAP_CONTENT,
