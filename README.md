@@ -13,7 +13,7 @@
 
    <img src="img/layout01.png" width="200"/>
 2. В качестве основного View Group используйте LinearLayout
-3. Для ImageView используйте изображение [hello_world.png](img/hello_world.png)
+3. Для ImageView используйте изображение [hello_world.png](app/src/main/res/drawable/hello_world.png)
 4. Измените атрибуты TextView так, чтобы макет соответствовал следующему изображению
 
    <img src="img/layout02.png" width="200"/>
@@ -43,6 +43,7 @@
 1. Выполните локализацию приложения на русский язык 
 
 ## Сдача работы
+!!!! Срок сдачи работы до 18.10.2023
 1. Выполните commit для фиксации всех изменений
 2. Выполнить push для оправки изменений на github.com
 3. Создайте Pull Request в репозиторий chebotarevsa/mad-2023-lab02.
