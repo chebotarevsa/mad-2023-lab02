@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моё приложение</string>
+    <string name="hello_world">Привет, мир!</string>
+    <string name="hello_android">Привет, Андроид!</string>
+    <string name="android_logo_alt">Логотип Андроид</string>
+    <string name="hello_world_alt">Картинка Hello world</string>
+</resources>
