@@ -1,6 +1,6 @@
 package ru.bsuedu.lab2
-import android.content.Context
 
+import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
 import android.util.TypedValue
@@ -27,7 +27,7 @@ class DynamicActivity : AppCompatActivity() {
         with(linearLayout) {
             addView(TextView(this@DynamicActivity).apply {
                 text = "Hello World!"
-                textSize = 40f 
+                textSize = resources.getDimension(R.dimen.text_size_large)
                 setTextColor(Color.BLACK)
                 layoutParams = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.WRAP_CONTENT,
@@ -38,8 +38,8 @@ class DynamicActivity : AppCompatActivity() {
             addView(ImageView(this@DynamicActivity).apply {
                 setImageResource(R.drawable.hello_world)
                 layoutParams = LinearLayout.LayoutParams(
-                    300.dpToPx(this@DynamicActivity),
-                    300.dpToPx(this@DynamicActivity)
+                    resources.getDimensionPixelSize(R.dimen.image_size_large),
+                    resources.getDimensionPixelSize(R.dimen.image_size_large)
                 )
             })
         }

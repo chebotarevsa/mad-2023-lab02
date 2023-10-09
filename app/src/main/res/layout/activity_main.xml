@@ -14,13 +14,12 @@
         android:background="@color/textColorGreen"
         android:text="@string/hello_world"
         android:textColor="@color/red"
-        android:textSize="40sp" />
+        android:textSize="@dimen/text_size_large" />
 
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="@dimen/image_size_large"
+        android:layout_height="@dimen/image_size_large"
         android:src="@drawable/hello_world">
-
     </ImageView>
 
 </LinearLayout>
