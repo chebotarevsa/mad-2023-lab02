@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_top_margin">50dp</dimen>
+    <dimen name="image_width">300dp</dimen>
+    <dimen name="image_height">300dp</dimen>
+    <dimen name="image_top_margin">50dp</dimen>
+</resources>
