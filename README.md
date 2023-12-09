@@ -13,7 +13,7 @@
 
    <img src="img/layout01.png" width="200"/>
 2. В качестве основного View Group используйте LinearLayout
-3. Для ImageView используйте изображение [hello_world.png](img/hello_world.png)
+3. Для ImageView используйте изображение [hello_world.png](app/src/main/res/drawable/hello_world.png)
 4. Измените атрибуты TextView так, чтобы макет соответствовал следующему изображению
 
    <img src="img/layout02.png" width="200"/>
