@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Лабораторная 2</string>
+    <string name="hello_world_text">Привет мир!</string>
+    <string name="hello_android_text">Привет Андроид!</string>
+</resources>
